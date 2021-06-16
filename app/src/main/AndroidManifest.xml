@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.AssignmentDuAnMau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.AssignmentDuAnMau.LoginActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.LuotSachBanChayActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.NguoiDungActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.NguoiDungDetailActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.TheLoaiActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ThemSachActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ThongKeDoanhThuActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.HoaDonActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.HoaDonChiTietActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ListBookActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ListHoaDonActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ListHoaDonChiTietByIDActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ListNguoiDungActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.ListTheLoaiActivity"/>
+        <activity android:name="com.example.AssignmentDuAnMau.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.AssignmentDuAnMau.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

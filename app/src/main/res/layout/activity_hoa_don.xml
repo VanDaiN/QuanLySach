@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.AssignmentDuAnMau.MainActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã hoá đơn"
+        android:textColorHint="#0A92CF"
+        android:id="@+id/edMaHoaDon"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DD-MM-YYYY"
+        android:textColorHint="#0A92CF"
+        android:id="@+id/edNgayMua"
+        android:layout_weight="4"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/picDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Chọn"
+        android:textStyle="bold"
+        android:textColor="#011301"
+        android:background="#CDDC39"
+        android:onClick="datePicker"
+        tools:ignore="OnClick" />
+</LinearLayout>
+    <Button
+        android:id="@+id/btnADDHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn"
+        android:textStyle="bold"
+        android:background="#CDDC39"
+        android:textColor="#011002"
+        android:onClick="ADDHoaDon"
+        android:layout_marginTop="20dp"
+        tools:ignore="OnClick" />
+
+</LinearLayout>

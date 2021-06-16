@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".ThongKeDoanhThuActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tkk"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Today"
+        android:id="@+id/tvThongKeNgay"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#E60250"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Month"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#E80351"
+        android:id="@+id/tvThongKeThang"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Year 2020:"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="#F40154"
+        android:id="@+id/tvThongKeNam"
+        />
+
+</LinearLayout>
